@@ -31,7 +31,7 @@
 		"afragen/github-updater": "^9",
 		"htmlburger/carbon-fields-yoast": "dev-master"
 	},
-	"minimum-stability": "beta",
+	"minimum-stability": "dev",
 	"extra": {
 		"wordpress-install-dir": "public/wp",
 		"installer-paths": {
