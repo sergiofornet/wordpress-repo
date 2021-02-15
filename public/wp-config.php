@@ -1,20 +1,20 @@
 <?php
 /**
- * Load database info and local development parameters
+ * Load database info and local development parameters.
  */
 // Change path to your production file
-if ( file_exists( dirname( __FILE__ ) . '/PATH/TO/production-config.php' ) ) {
+if ( file_exists( dirname( __FILE__ ) . '/PATH/TO/PRODUCTION-CONFIG.php' ) ) {
 	define( 'WP_LOCAL_DEV', false );
 	// Change path to your production file
-    include( dirname( __FILE__ ) . '/PATH/TO/production-config.php' );
+    include( dirname( __FILE__ ) . '/PATH/TO/PRODUCTION-CONFIG.php' );
 } else {
     define( 'WP_LOCAL_DEV', true );
 	// Change path to your local config file
-    include( dirname( __FILE__ ) . '/PATH/TO/local-config.php' );
+    include( dirname( __FILE__ ) . '/PATH/TO/LOCAL-CONFIG.php' );
 }
 
 /**
- * Define custom wp-content directory
+ * Define custom wp-content directory.
  */
 define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/wp-content' );
 define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/public/wp-content' );
@@ -25,12 +25,26 @@ define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/public/wp-conten
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  * 
- * I prefer to use always custom prefixes but it's ok to leave 'wp_'
+ * I prefer to use always custom prefixes but it's ok to leave 'wp_'.
  */
 $table_prefix = 'wp_';
 
+/**
+ * Define locale.
+ */
 define( 'WPLANG', 'es_ES' );
-define( 'WP_POST_REVISIONS', false);
+
+/**
+ * Disable post revisions.
+ * 
+ * You can enable them if you want.
+ */
+define( 'WP_POST_REVISIONS', false );
+
+/**
+ * Disallow theme/plugin file editing on admin panel
+ */
+define( 'DISALLOW_FILE_EDIT', true );
 
 /* That's all, stop editing! Happy publishing. */
 
