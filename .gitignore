@@ -22,7 +22,7 @@ composer.lock
 
 # Ignore the wp-content directory
 **/wp-content/plugins/*
-**/wp-content/themes
+**/wp-content/themes/*
 **/wp-content/uploads
 **/wp-content/upgrade
 **/wp-content/languages
@@ -30,8 +30,11 @@ composer.lock
 # Don't ignore mu-plugins
 !**/wp-content/mu-plugins
 
-# Don't ignore PROJECT core plugin
+# Don't ignore plugins and themes index.php
 !**/wp-content/plugins/index.php
+!**/wp-content/themes/index.php
+
+# Don't ignore PROJECT core plugin
 # !wp-content/plugins/PROJECT-core
 
 # Don't ignore PROJECT custom-fields plugin
