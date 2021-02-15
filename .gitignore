@@ -1,0 +1,38 @@
+# OS generated files
+**.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+._*
+
+# Logs and databases
+*.log
+*.sql
+*.env
+*error_log
+
+# Ignore composer generated files and directories
+composer.lock
+/vendor
+/public/wp
+
+# Ignore wp-config.php and .htaccess
+# wp-config.php
+.htaccess
+
+# Ignore the wp-content directory
+**/wp-content/plugins/*
+**/wp-content/themes
+**/wp-content/uploads
+**/wp-content/upgrade
+**/wp-content/languages
+
+# Don't ignore mu-plugins
+!**/wp-content/mu-plugins
+
+# Don't ignore PROJECT core plugin
+!**/wp-content/plugins/index.php
+# !wp-content/plugins/PROJECT-core
+
+# Don't ignore PROJECT custom-fields plugin
+# !wp-content/plugins/PROJECT-custom-fields
