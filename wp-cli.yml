@@ -1,0 +1,3 @@
+## Uncomment to pass your url to wp cli
+## "localhost" or "yourproject.whatever".
+#url: [PUBLIC_URL]
