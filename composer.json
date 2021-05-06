@@ -21,8 +21,10 @@
 		"composer/installers": "1.*",
 		"johnpbloch/wordpress": "5.7.*",
 		"htmlburger/carbon-fields": "^3.3",
+		"htmlburger/carbon-fields-plugin": "dev-master",
 		"afragen/git-updater": "^9",
-		"htmlburger/carbon-fields-yoast": "dev-master"
+		"htmlburger/carbon-fields-yoast": "dev-master",
+		"mnsami/composer-custom-directory-installer": "2.0.x-dev",
 	},
 	"minimum-stability": "dev",
 	"extra": {
@@ -36,6 +38,9 @@
 			],
 			"public/wp-content/themes/{$name}/": [
 				"type:wordpress-theme"
+			],
+			"./public/wp-content/plugins/carbon-fields-plugin/vendor/{$vendor}/{$name}": [
+				"htmlburger/carbon-fields"
 			]
 		}
 	}
