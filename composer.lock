@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cad2cbe85f64f90d3262795a116b95a2",
+    "content-hash": "4860b69cba670addafe7d5c34fbefba0",
     "packages": [
         {
             "name": "afragen/git-updater",
@@ -121,12 +121,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/afragen/wordpress-plugin-readme-parser.git",
-                "reference": "f878b2a815caace5f331b827b356b4eab9610561"
+                "reference": "a3b3a1313a8ca870f9d1ebd97148f63045a8adf9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afragen/wordpress-plugin-readme-parser/zipball/f878b2a815caace5f331b827b356b4eab9610561",
-                "reference": "f878b2a815caace5f331b827b356b4eab9610561",
+                "url": "https://api.github.com/repos/afragen/wordpress-plugin-readme-parser/zipball/a3b3a1313a8ca870f9d1ebd97148f63045a8adf9",
+                "reference": "a3b3a1313a8ca870f9d1ebd97148f63045a8adf9",
                 "shasum": ""
             },
             "require": {
@@ -160,7 +160,7 @@
                 "issues": "https://github.com/afragen/wordpress-plugin-readme-parser/issues",
                 "source": "https://github.com/afragen/wordpress-plugin-readme-parser/tree/master"
             },
-            "time": "2021-01-11T22:07:25+00:00"
+            "time": "2022-06-10T20:13:50+00:00"
         },
         {
             "name": "collizo4sky/persist-admin-notices-dismissal",
@@ -205,16 +205,16 @@
         },
         {
             "name": "composer/installers",
-            "version": "dev-main",
+            "version": "1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "ae03311f45dfe194412081526be2e003960df74b"
+                "reference": "894a0b5c5d34c88b69b097f2aae1439730fa6836"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/ae03311f45dfe194412081526be2e003960df74b",
-                "reference": "ae03311f45dfe194412081526be2e003960df74b",
+                "url": "https://api.github.com/repos/composer/installers/zipball/894a0b5c5d34c88b69b097f2aae1439730fa6836",
+                "reference": "894a0b5c5d34c88b69b097f2aae1439730fa6836",
                 "shasum": ""
             },
             "require": {
@@ -232,13 +232,13 @@
                 "symfony/phpunit-bridge": "^4.2 || ^5",
                 "symfony/process": "^2.3"
             },
-            "default-branch": true,
             "type": "composer-plugin",
             "extra": {
                 "class": "Composer\\Installers\\Plugin",
                 "branch-alias": {
                     "dev-main": "1.x-dev"
-                }
+                },
+                "plugin-modifies-install-path": true
             },
             "autoload": {
                 "psr-4": {
@@ -314,6 +314,7 @@
                 "modx",
                 "moodle",
                 "osclass",
+                "pantheon",
                 "phpbb",
                 "piwik",
                 "ppi",
@@ -336,7 +337,7 @@
             ],
             "support": {
                 "issues": "https://github.com/composer/installers/issues",
-                "source": "https://github.com/composer/installers/tree/v1.11.0"
+                "source": "https://github.com/composer/installers/tree/1.x"
             },
             "funding": [
                 {
@@ -352,7 +353,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-04-28T06:42:17+00:00"
+            "time": "2022-03-15T21:23:54+00:00"
         },
         {
             "name": "erusev/parsedown",
@@ -406,16 +407,16 @@
         },
         {
             "name": "htmlburger/carbon-fields",
-            "version": "v3.3.0",
+            "version": "v3.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/htmlburger/carbon-fields.git",
-                "reference": "1a3fa2c50f3e25775ff3846c22fab2384312d96a"
+                "reference": "2ae6773c004b873a1b0456613b14852c1a436a96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/htmlburger/carbon-fields/zipball/1a3fa2c50f3e25775ff3846c22fab2384312d96a",
-                "reference": "1a3fa2c50f3e25775ff3846c22fab2384312d96a",
+                "url": "https://api.github.com/repos/htmlburger/carbon-fields/zipball/2ae6773c004b873a1b0456613b14852c1a436a96",
+                "reference": "2ae6773c004b873a1b0456613b14852c1a436a96",
                 "shasum": ""
             },
             "require": {
@@ -541,7 +542,7 @@
                 "issues": "https://github.com/htmlburger/carbon-fields/issues",
                 "source": "https://github.com/htmlburger/carbon-fields"
             },
-            "time": "2021-03-26T12:13:14+00:00"
+            "time": "2022-05-05T14:49:59+00:00"
         },
         {
             "name": "htmlburger/carbon-fields-plugin",
@@ -549,17 +550,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/htmlburger/carbon-fields-plugin.git",
-                "reference": "bf95715ca783f38e908e20dc16d7f32573e94b65"
+                "reference": "bdf850a5a321cd4187a5a1708aa70b5f2fb2523c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/htmlburger/carbon-fields-plugin/zipball/bf95715ca783f38e908e20dc16d7f32573e94b65",
-                "reference": "bf95715ca783f38e908e20dc16d7f32573e94b65",
+                "url": "https://api.github.com/repos/htmlburger/carbon-fields-plugin/zipball/bdf850a5a321cd4187a5a1708aa70b5f2fb2523c",
+                "reference": "bdf850a5a321cd4187a5a1708aa70b5f2fb2523c",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "^1.0",
-                "htmlburger/carbon-fields": "3.3.0",
+                "htmlburger/carbon-fields": "3.3.4",
                 "php": ">=5.3"
             },
             "default-branch": true,
@@ -587,7 +588,7 @@
                 "issues": "https://github.com/htmlburger/carbon-fields/issues",
                 "source": "https://github.com/htmlburger/carbon-fields"
             },
-            "time": "2021-03-26T12:43:23+00:00"
+            "time": "2022-05-05T14:55:44+00:00"
         },
         {
             "name": "htmlburger/carbon-fields-yoast",
@@ -623,20 +624,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "5.7.x-dev",
+            "version": "6.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "80225e536a8f9120be702d5e78e2d3d0db7845a6"
+                "reference": "d258645a90bae6a40856f19a02fab5ab161ac805"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/80225e536a8f9120be702d5e78e2d3d0db7845a6",
-                "reference": "80225e536a8f9120be702d5e78e2d3d0db7845a6",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/d258645a90bae6a40856f19a02fab5ab161ac805",
+                "reference": "d258645a90bae6a40856f19a02fab5ab161ac805",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "5.7.x-dev",
+                "johnpbloch/wordpress-core": "6.0.x-dev",
                 "johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
                 "php": ">=5.6.20"
             },
@@ -648,37 +649,37 @@
             "authors": [
                 {
                     "name": "WordPress Community",
-                    "homepage": "http://wordpress.org/about/"
+                    "homepage": "https://wordpress.org/about/"
                 }
             ],
             "description": "WordPress is open source software you can use to create a beautiful website, blog, or app.",
-            "homepage": "http://wordpress.org/",
+            "homepage": "https://wordpress.org/",
             "keywords": [
                 "blog",
                 "cms",
                 "wordpress"
             ],
             "support": {
-                "forum": "http://wordpress.org/support/",
+                "docs": "https://developer.wordpress.org/",
+                "forum": "https://wordpress.org/support/",
                 "irc": "irc://irc.freenode.net/wordpress",
-                "issues": "http://core.trac.wordpress.org/",
-                "source": "http://core.trac.wordpress.org/browser",
-                "wiki": "http://codex.wordpress.org/"
+                "issues": "https://core.trac.wordpress.org/",
+                "source": "https://core.trac.wordpress.org/browser"
             },
-            "time": "2021-02-23T21:08:26+00:00"
+            "time": "2022-05-03T17:42:59+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "5.7.x-dev",
+            "version": "6.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "9c3199c947f2e3b74edbbe8867e7ca7143a9e0b3"
+                "reference": "67c8a9c7ae4a1f3a9a9a17f8480ba743c8abcb08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/9c3199c947f2e3b74edbbe8867e7ca7143a9e0b3",
-                "reference": "9c3199c947f2e3b74edbbe8867e7ca7143a9e0b3",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/67c8a9c7ae4a1f3a9a9a17f8480ba743c8abcb08",
+                "reference": "67c8a9c7ae4a1f3a9a9a17f8480ba743c8abcb08",
                 "shasum": ""
             },
             "require": {
@@ -686,7 +687,7 @@
                 "php": ">=5.6.20"
             },
             "provide": {
-                "wordpress/core-implementation": "5.7.x-dev"
+                "wordpress/core-implementation": "6.0.x-dev"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -713,7 +714,7 @@
                 "source": "https://core.trac.wordpress.org/browser",
                 "wiki": "https://codex.wordpress.org/"
             },
-            "time": "2021-04-29T20:49:54+00:00"
+            "time": "2022-07-05T17:01:06+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
