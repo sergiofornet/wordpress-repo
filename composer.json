@@ -24,7 +24,8 @@
 		"htmlburger/carbon-fields-plugin": "dev-master",
 		"afragen/git-updater": "^9",
 		"htmlburger/carbon-fields-yoast": "dev-master",
-		"mnsami/composer-custom-directory-installer": "2.0.x-dev"
+		"mnsami/composer-custom-directory-installer": "2.0.x-dev",
+		"vlucas/phpdotenv": "5.4.x-dev"
 	},
 	"minimum-stability": "dev",
 	"extra": {

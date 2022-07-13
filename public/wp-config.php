@@ -1,12 +1,19 @@
 <?php
 /**
+ * Load dotenv
+ */
+require_once __DIR__ . '/../vendor/autoload.php';
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../');
+$dotenv->safeLoad();
+
+/**
  * Load database info and local development parameters.
  */
 // Change path to your production file
 if ( file_exists( dirname( __FILE__ ) . '/PATH/TO/PRODUCTION-CONFIG.php' ) ) {
 	define( 'WP_LOCAL_DEV', false );
 	// Change path to your production file
-    include( dirname( __FILE__ ) . '/PATH/TO/PRODUCTION-CONFIG.php' );
+    include( dirname( __FILE__ ) . '/../../tsb-production-config.php' );
 } else {
     define( 'WP_LOCAL_DEV', true );
 	// Change path to your local config file
