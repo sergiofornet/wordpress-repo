@@ -13,7 +13,7 @@ $dotenv->safeLoad();
 if ( file_exists( dirname( __FILE__ ) . '/PATH/TO/PRODUCTION-CONFIG.php' ) ) {
 	define( 'WP_LOCAL_DEV', false );
 	// Change path to your production file
-    include( dirname( __FILE__ ) . '/../../tsb-production-config.php' );
+    include( dirname( __FILE__ ) . '/PATH/TO/PRODUCTION-CONFIG.php' );
 } else {
     define( 'WP_LOCAL_DEV', true );
 	// Change path to your local config file
